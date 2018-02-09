@@ -1,0 +1,19 @@
+{
+  "name": "delete-repo-create-issue-atuomation",
+  "version": "0.0.0-development",
+  "description": "A simple web service written that listens for repository events to know when a repository has been deleted. When the repository is deleted, an issue is created in a repository in the same organization as the deleted repository.",
+  "author": "Karen Port <port.karen@gmail.com>",
+  "contributors": [
+    {
+      "name": "Karen Port",
+      "email": "port.karen@gmail.com"
+    }
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "octonode": "^0.9.1"
+  }
+}
